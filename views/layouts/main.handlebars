@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <title>Zzish Insights | Dev</title>
+</head>
+
+<body>
+    {{{body}}}
+    <div class="scripts">
+        {{#if devServer}}
+        <script src="//localhost:7064/assets/vendor.js"></script>
+        <script src="//localhost:7064/assets/app.js"></script> {{else}}
+        <link rel="stylesheet" href="/assets/app.css">
+        <script src="/assets/vendor.js"></script>
+        <script src="/assets/app.js"></script> {{/if}}
+    </div>
+</body>
+
+</html>

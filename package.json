@@ -32,7 +32,7 @@
         "@babel/register": "^7.4.0",
         "@types/body-parser": "^1.17.0",
         "@types/express": "^4.16.1",
-        "@types/express-handlebars": "0.0.31",
+        "@types/express-handlebars": "0.0.33",
         "@types/history": "^4.7.2",
         "@types/node": "^10.12.9",
         "@types/react-dom": "^16.8.3",
